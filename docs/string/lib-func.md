@@ -43,4 +43,4 @@ C++ 标准库操作字符串对象，同时也提供对字符数组的兼容。
 - `replace(pos, n, s)` 删除从 `pos` 开始的 `n` 个字符，然后在 `pos` 处插入串 `s`。
 - `erase(pos, n)` 删除从 `pos` 开始的 `n` 个字符。
 - `insert(pos, s)` 在 `pos` 位置插入字符串 `s`。
-- `std::string` 重载了比较逻辑运算符，复杂度是 $\Theta(N)$ 的。
+- `std::string` 重载了比较逻辑运算符，复杂度是 $\Theta(N)$ 的
